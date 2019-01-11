@@ -1,14 +1,48 @@
 $(document).ready(function(){
-        var url = window.location.href.split("/");
-        var navLinks = document.getElementsById("nav").getElementsByTagName("a");
-        var currentPage = url[url.length - 1];
-        document.getElementById("text").innerHTML = "Found: " + currentPage.toString() + "\n"
-        for(var i=0;i<navLinks.length;i++){
-            var lb = navLinks[i].href.split("/");
-            document.getElementById("text").innerHTML += "Others: " + lb[lb.length-1].toString() + "\n"
-            if(lb[lb.length-1] == currentPage) {
-                navLinks[i].className = "current";
-            }
-        }
+        name();
+        text();
+        changeImage();
+    }
+);
+
+function name(){
+    var text = 'HI, I AM SHASHWATI';
+
+    var textElements = text.split("").map(function(c) {
+      return $('<span id="' + c + '">' + c + '</span>');
     });
+    
+    var el = $('#name');
+    var delay = 80; // Tune this for different letter delays.
+    textElements.forEach(function(e, i) {
+        el.append(e);
+        e.hide();
+        setTimeout(function() {
+            e.fadeIn(3000)
+        }, 100 + i * delay)
+    })
+}
+
+function text() {
+    var text = 'Learn more about me';    
+    var el = $('#text');
+    el.hide()
+    el.delay(3000);
+    el.append(text);
+    el.fadeIn();
+}
+
+x = -1;
+BackgroundIm = ["./others/beach.jpeg", "./others/background.jpg"];
+
+function displayNextImage() {
+    x = (x == BackgroundIm.length - 1) ? 0 : x + 1;
+    document.getElementsByTagName("body")[0].style.backgroundImage = 'url(\"' + BackgroundIm[x] + '\")';
+}
+
+function changeImage() {
+    setInterval(displayNextImage, 5000);
+}
+
+
 
