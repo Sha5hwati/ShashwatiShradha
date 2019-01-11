@@ -10,7 +10,7 @@ body{
     margin: 0px;
 }
 
-.rectangle {
+.flex-rectangle {
     height: 300px;
     width: 100%;
     background-color:white;
@@ -20,6 +20,30 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);  
     border:2px white;
+  }
+
+  #aboutMe {
+      font-size: 28;
+      line-height: 2;
+      font-weight: bold;
+      text-align: right;
+  }
+
+  #contact {
+      font-family: sans-serif;
+      font-size: 17;
+  }
+
+  .rectangle {
+    height: 300px;
+    width: 900px;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-80%, -50%);  
+    border:2px white;
+    font-family: sans-serif;
   }
 
 .topnav {
@@ -47,4 +71,34 @@ body{
 .topnav a.active {
     background-color: rgb(92, 95, 95);
     color: white;
+}
+
+.image {
+    width: 200px;
+    height: 260px;
+    margin-right: 90px;
+    border: 5px solid white
+}
+
+.contactInfo {
+    right: 50%;
+    overflow: hidden;
+    background-color: transparent;
+    text-align:center;
+}
+
+.contactInfo a {
+    text-align: center;
+    padding: 0px 16px;
+    display: inline-block;
+}
+
+.contactInfo a:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.contactImage {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
 }
