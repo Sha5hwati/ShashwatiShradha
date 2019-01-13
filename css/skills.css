@@ -25,7 +25,7 @@ p {
 }
 
 .flex-rectangle {
-    height: 380px;
+    height: 450px;
     width: 100%;
     background-color:white;
     opacity: 0.4;
@@ -81,7 +81,7 @@ p {
   }
   
   .row {
-    margin: 20px;
+    margin: 10px;
   }
 
   .row:after {
