@@ -5,6 +5,7 @@ body {
     background-image: url('../others/background/skills.jpg');
     background-size: cover;
     margin: 0;
+    transition: background 1s ease-in-out;
 }
 
 #title {
@@ -25,7 +26,7 @@ p {
 }
 
 .flex-rectangle {
-    height: 450px;
+    height: 380px;
     width: 100%;
     background-color:white;
     opacity: 0.4;
@@ -81,7 +82,7 @@ p {
   }
   
   .row {
-    margin: 10px;
+    margin: 20px;
   }
 
   .row:after {

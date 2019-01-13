@@ -30,6 +30,7 @@ body{
     margin: 0px;
     background-image: url('../others/background/projects.jpg');
     background-size: cover;
+    transition: background 1s ease-in-out;
 }
 
 .flex-rectangle {

@@ -5,6 +5,7 @@ body {
     background-image: url('../others/background/connect.jpg');
     background-size: cover;
     margin: 0;
+    transition: background 1s ease-in-out;
 }
 
 h4 {
