@@ -1,4 +1,5 @@
 $(document).ready(function(){
+        displayNextImage()
         name();
         text();
         changeImage();
@@ -24,7 +25,7 @@ function name(){
 }
 
 function text() {
-    var text = 'Learn more about me';    
+    var text = 'Welcome to my portfolio';    
     var el = $('#text');
     el.hide()
     el.delay(3000);
@@ -33,7 +34,9 @@ function text() {
 }
 
 x = -1;
-BackgroundIm = ["./others/beach.jpeg", "./others/background.jpg"];
+BackgroundIm = ["../others/background/desk.jpg",
+                "../others/background/art.jpg",
+                "../others/background/beach.jpg"];
 
 function displayNextImage() {
     x = (x == BackgroundIm.length - 1) ? 0 : x + 1;
@@ -41,7 +44,7 @@ function displayNextImage() {
 }
 
 function changeImage() {
-    setInterval(displayNextImage, 5000);
+    setInterval(displayNextImage, 8000);
 }
 
 

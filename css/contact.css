@@ -1,0 +1,78 @@
+body {
+    background-color: wheat;
+    overflow: hidden;
+    background: center fixed;
+    background-image: url('../others/background/connect.jpg');
+    background-size: cover;
+    margin: 0;
+}
+
+h4 {
+    line-height: 0%;
+    font-family: sans-serif;
+    font-size: 15;
+    margin:0;
+    padding:0;
+}
+
+.rectangle {
+    height: 300px;
+    width: 900px;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-80%, -45%);  
+    border:2px white;
+    font-family: sans-serif;
+  }
+
+.topnav {
+    right: 50%;
+    overflow: hidden;
+    background-color: #333;
+    text-align:center;
+}
+
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 17px 19px;
+    text-decoration: none;
+    font-size: 17px;   
+    font-family: sans-serif;
+    display: inline-block;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: rgb(92, 95, 95);
+    color: white;
+}
+
+.contactInfo {
+    right: 50%;
+    overflow: hidden;
+    background-color: transparent;
+    text-align:center;
+}
+
+.contactInfo a {
+    text-align: center;
+    padding: 0px 16px;
+    display: inline-block;
+}
+
+.contactInfo a:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.contactImage {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
