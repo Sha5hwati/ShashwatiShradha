@@ -81,3 +81,14 @@ body{
     background-color: rgb(92, 95, 95);
     color: white;
 }
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 300px;
+  background-color: transparent;
+  border: 1px black;
+  color: black;
+  text-align: center;
+}
