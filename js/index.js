@@ -5,7 +5,7 @@ $(document).ready(function(){
 );
 
 function name(){
-    var text = 'MEET SHASHWATI';
+    var text = 'Meet Shashwati';
 
     var textElements = text.split("").map(function(c) {
       return $('<span id="' + c + '">' + c + '</span>');
@@ -22,7 +22,7 @@ function name(){
     })
 }
 
-captions =  'She codes, stives to make impact, and enjoys visiting new cities';
+captions =  'She studies at South Dakota School of Mines and Technology, she codes, and stives to make impact';
 
 function text() {
     var textElements = captions.split("\n").map(function(c) {
