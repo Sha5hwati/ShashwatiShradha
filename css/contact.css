@@ -2,7 +2,7 @@ body {
     background-color: wheat;
     overflow: hidden;
     background: center fixed;
-    background-image: url('../others/background/connect.jpg');
+    background-image: url('../others/background/test2.jpg');
     background-size: cover;
     margin: 0;
     transition: background 1s ease-in-out;
@@ -28,15 +28,17 @@ h4 {
     font-family: sans-serif;
   }
 
-.topnav {
+  .topnav {
+    background-size: cover;
+    background-position: center; 
     right: 50%;
     overflow: hidden;
-    background-color: #333;
+    background-color: transparent;
     text-align:center;
 }
 
 .topnav a {
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 17px 19px;
     text-decoration: none;
@@ -46,13 +48,12 @@ h4 {
 }
 
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+   transform: scale(1.2, 1.2);
 }
 
 .topnav a.active {
-    background-color: rgb(92, 95, 95);
-    color: white;
+    color: black;
+    font-weight: bold;
 }
 
 .contactInfo {
