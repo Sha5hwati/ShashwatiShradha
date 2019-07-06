@@ -123,9 +123,9 @@ body{
   font-weight: bold;
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 700px) {
   body {
     background-color: lightblue;
-    transform: translate(0, 30%); 
+    transform: translate(0, 0%); 
   }
 }
