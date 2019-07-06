@@ -63,7 +63,7 @@ body{
   height: 300px;
   width: 100%;
   background-color: transparent;
-  position: absolute;
+  position: relative;
   transform: translate(0, 50%); 
   align-content: center;
   font-family: sans-serif;
@@ -121,4 +121,11 @@ body{
 .icons a.focus {
   color: black;
   font-weight: bold;
+}
+
+@media screen and (max-width: 568px) {
+  body {
+    background-color: lightblue;
+    transform: translate(0, 30%); 
+  }
 }
