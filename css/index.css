@@ -11,28 +11,12 @@ body{
     background-image: url('../others/background/art.jpg');
     background-size: cover;
 }
-
-.flex-rectangle {
-    height: 300px;
-    width: 100%;
-    background-color:white;
-    opacity: 0.4;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);  
-    border:2px white;
-  }
-
   .rectangle {
     height: 300px;
-    width: 900px;
+    width: 80%;
     background-color: transparent;
     position: absolute;
-    top: 50%;
-    left: 70%;
-    transform: translate(-80%, -45%);  
-    border:2px white;
+    align-content6: center;
     font-family: sans-serif;
   }
 
@@ -54,43 +38,3 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black
   }
-
-.topnav {
-    background-size: cover;
-    background-position: center; 
-    right: 50%;
-    overflow: hidden;
-    background-color: transparent;
-    text-align:center;
-}
-
-.topnav a {
-    color: black;
-    text-align: center;
-    padding: 17px 19px;
-    text-decoration: none;
-    font-size: 17px;   
-    font-family: sans-serif;
-    display: inline-block;
-}
-
-.topnav a:hover {
-   transform: scale(1.2, 1.2);
-}
-
-.topnav a.active {
-    background-color: transparent;
-    color: black;
-    font-weight: bold;
-}
-
-.footer {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  width: 300px;
-  background-color: transparent;
-  border: 1px black;
-  color: black;
-  text-align: center;
-}
