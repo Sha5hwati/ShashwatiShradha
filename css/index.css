@@ -28,7 +28,8 @@ body{
   font-weight: bold;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: black
+  color: black;
+  margin-bottom: 35px;
 }
 
 #me {
@@ -60,13 +61,23 @@ body{
 
 .intro_rectangle {
   height: 300px;
-  width: 80%;
+  width: 100%;
   background-color: transparent;
   position: absolute;
-  transform: translate(12%, 50%); 
+  transform: translate(0, 50%); 
   align-content: center;
   font-family: sans-serif;
   margin-bottom: 100px;
+}
+
+.about_rectangle {
+  height: 200px;
+  width: 70%;
+  background-color: transparent;
+  position: relative;
+  transform: translate(20%, 0); 
+  align-content: center;
+  font-family: sans-serif;
 }
 
 #navbar{
@@ -83,6 +94,7 @@ body{
 .icons {
   overflow: hidden;
   background-color: transparent;
+  position: relative;
   text-align:center;
   font-weight: bold;
 }
