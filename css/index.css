@@ -94,7 +94,6 @@ body{
 .icons {
   overflow: hidden;
   background-color: transparent;
-  position: relative;
   text-align:center;
   font-weight: bold;
 }
