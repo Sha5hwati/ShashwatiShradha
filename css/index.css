@@ -7,34 +7,107 @@ h1 {
 body{
     background: fixed;
     overflow: hidden;
-    margin: 0px;
-    background-image: url('../others/background/art.jpg');
+    background-color: whitesmoke;
     background-size: cover;
+    overflow-y : auto;
 }
-  .rectangle {
-    height: 300px;
-    width: 80%;
-    background-color: transparent;
-    position: absolute;
-    align-content: center;
+
+#name {
+  font-size: 60px;
+  letter-spacing: 4px;
+  line-height: 2;
+  font-weight: bold;
+  text-align: center;
+  color: rgba(211, 37, 75, 0.829)
+}
+
+#text {
+  font-size: 30px;
+  letter-spacing: 4px;
+  line-height: 2;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black
+}
+
+#me {
+  font-size: 16px;
+  letter-spacing: 4px;
+  line-height: 2;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  padding-bottom: -50%;
+}
+
+#div_pic{
+  display: none;
+  padding-bottom: 185px;
+}
+
+#pic{
+  height: 250px;
+  width: 200px;
+  position: fixed;
+  top:-20%;
+  left: 40%;
+  margin-left: 20px;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.intro_rectangle {
+  height: 300px;
+  width: 80%;
+  background-color: transparent;
+  position: absolute;
+  transform: translate(12%, 50%); 
+  align-content: center;
+  font-family: sans-serif;
+  margin-bottom: 100px;
+}
+
+#navbar{
+  overflow: hidden;
+  position: fixed; 
+  top: 0; 
+  z-index:1;
+  background-color: whitesmoke;
+  align-content: center;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.icons {
+  overflow: hidden;
+  background-color: transparent;
+  text-align:center;
+  font-weight: bold;
+}
+
+.icons a {
+    color:black;
+    text-align: center;
+    padding: 17px 19px;
+    text-decoration: none;
+    font-size: 17px;   
     font-family: sans-serif;
-  }
+    display: inline-block;
+}
 
-  #name {
-    font-size: 60px;
-    letter-spacing: 4px;
-    line-height: 2;
-    font-weight: bold;
-    text-align: center;
-    color: rgba(211, 37, 75, 0.829)
-  }
+.icons a:hover {
+    color: black;
+    transform: scale(1.2,1.2)
+}
 
-  #text {
-    font-size: 30px;
-    letter-spacing: 4px;
-    line-height: 2;
-    font-weight: bold;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black
-  }
+.icons a.active {
+  color: black;
+  font-weight: bold;
+}
+
+.icons a.focus {
+  color: black;
+  font-weight: bold;
+}
