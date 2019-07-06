@@ -93,6 +93,7 @@ body{
 
 .icons {
   overflow: hidden;
+  display: block;
   background-color: transparent;
   text-align:center;
   font-weight: bold;
@@ -125,7 +126,7 @@ body{
 
 @media screen and (max-width: 700px) {
   #navbar{
-    margin-bottom: 0px;
+    margin-bottom: 10px;
   }
 
   .intro_rectangle {
@@ -133,20 +134,13 @@ body{
     transform: translate(0, 10%); 
   }
 
+  .about_rectangle {
+    height: 100%;
+  }
+
   #name {
     font-size: 10px;
     letter-spacing: 2px;
     line-height: 1;
-  }
-
-  .about_rectangle {
-    height: 100%;
-    width: 70%;
-    background-color: transparent;
-    position: relative;
-    transform: translate(20%, 0); 
-    align-content: center;
-    font-family: sans-serif;
-    margin-bottom: 100px;
   }
 }
