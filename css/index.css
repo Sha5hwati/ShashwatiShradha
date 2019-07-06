@@ -74,7 +74,7 @@ body{
   height: 200px;
   width: 70%;
   background-color: transparent;
-  position: relative;
+  position: absolute;
   transform: translate(20%, 0); 
   align-content: center;
   font-family: sans-serif;
@@ -96,6 +96,7 @@ body{
   background-color: transparent;
   text-align:center;
   font-weight: bold;
+  position: relative;
 }
 
 .icons a {
@@ -124,13 +125,7 @@ body{
 }
 
 @media screen and (max-width: 700px) {
-  .intro_rectangle {
-    width: 100%;
-    background-color: transparent;
-    position: absolute;
-    transform: translate(0, 10%); 
-    align-content: center;
-    font-family: sans-serif;
-    margin-bottom: 100px;
+  #navbar{
+    margin-bottom: 0px;
   }
 }

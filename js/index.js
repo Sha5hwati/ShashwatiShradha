@@ -8,7 +8,6 @@ $(document).ready(function(){
             $("#div_pic").hide();
             $("#name").show();
             $("#text").show();
-            $("#contact").show();
             name(home_text);
             text();
         });  
@@ -18,7 +17,6 @@ $(document).ready(function(){
             $("#div_pic").show(); 
             $("#name").hide();
             $("#text").hide();
-            $("#contact").hide();
             about();
         }); 
         
