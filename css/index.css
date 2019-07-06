@@ -137,10 +137,4 @@ body{
   .about_rectangle {
     height: 100%;
   }
-
-  #name {
-    font-size: 10px;
-    letter-spacing: 2px;
-    line-height: 1;
-  }
 }
