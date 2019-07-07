@@ -40,22 +40,7 @@ body{
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: black;
-}
-
-#div_pic{
-  display: none;
-  padding-bottom: 185px;
-}
-
-#pic{
-  height: 250px;
-  width: 200px;
-  position: fixed;
-  top:-20%;
-  left: 40%;
-  margin-left: 20px;
-  margin: auto;
-  border-radius: 50%;
+  margin-bottom: 35px;
 }
 
 .intro_rectangle {
@@ -70,13 +55,14 @@ body{
 }
 
 .about_rectangle {
-  height: 200px;
+  height: 300px;
   width: 70%;
   background-color: transparent;
-  position: relative;
-  transform: translate(20%, 0); 
+  position: absolute;
+  transform: translate(20%, 50%); 
   align-content: center;
   font-family: sans-serif;
+  margin-bottom: 100px;
 }
 
 #navbar{
@@ -92,7 +78,7 @@ body{
 
 .icons {
   overflow: hidden;
-  display: block;
+  position: relative;
   background-color: transparent;
   text-align:center;
   font-weight: bold;
@@ -125,26 +111,23 @@ body{
 
 @media screen and (max-width: 700px) {
   #navbar{
-    margin-bottom: 0px;
-  }
-
-  .intro_rectangle {
-    transform: translate(0, 10%); 
-  }
-
-  .about_rectangle{
-    transform: translate(20%, 10%); 
-  }
-
-  #me {
     margin-bottom: 50px;
   }
 
-  .icons {
-    transform: scale(0.8,0.8)
+  .intro_rectangle {
+    transform: translate(0, 20%); 
   }
 
-  .icons a {
+  .about_rectangle{
+    transform: translate(20%, 20%); 
+  }
+
+  #contact {
+    transform: scale(0.8,0.8);
+    bottom: 0;
+  }
+
+  #contact a {
     padding: 4px 4px;
   } 
 }

@@ -1,32 +1,27 @@
 $(document).ready(function(){
-        name(home_text);
+        $(".about_rectangle").hide();
+        name();
         text();
-        $("#me").hide();
 
         $("#home").click(function(){
-            $("#me").hide();
-            $("#div_pic").hide();
-            $("#name").show();
-            $("#text").show();
+            $(".about_rectangle").hide();
+            $(".intro_rectangle").show();
             name(home_text);
             text();
         });  
         
         $("#about").click(function(){
-            $("#me").show(); 
-            $("#div_pic").show(); 
-            $("#name").hide();
-            $("#text").hide();
+            $(".intro_rectangle").hide();
+            $(".about_rectangle").show();
             about();
         }); 
         
     }
 );
 
-
-var home_text = 'Meet Shashwati';
-function name(text){
-
+;
+function name(){
+    var text = 'Meet Shashwati'
     var textElements = text.split("").map(function(c) {
       return $('<span id="' + c + '">' + c + '</span>');
     });
