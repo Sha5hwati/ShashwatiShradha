@@ -43,6 +43,14 @@ body{
   margin-bottom: 35px;
 }
 
+#pic {
+  height: 200px;
+  width: 180px;
+  display:block;
+  margin:auto;
+  border-radius: 50%;
+}
+
 .intro_rectangle {
   height: 300px;
   width: 100%;
@@ -59,7 +67,7 @@ body{
   width: 70%;
   background-color: transparent;
   position: absolute;
-  transform: translate(20%, 50%); 
+  transform: translate(20%, 19%); 
   align-content: center;
   font-family: sans-serif;
   margin-bottom: 100px;
