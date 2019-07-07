@@ -6,7 +6,7 @@ $(document).ready(function(){
         $("#home").click(function(){
             $(".about_rectangle").hide();
             $(".intro_rectangle").show();
-            name(home_text);
+            name();
             text();
         });  
         
