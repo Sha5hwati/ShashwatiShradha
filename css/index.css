@@ -114,12 +114,17 @@ body{
     margin-bottom: 50px;
   }
 
+  #name {
+    line-height: 1;
+  }
+
   .intro_rectangle {
     transform: translate(0, 20%); 
   }
 
   .about_rectangle{
-    transform: translate(20%, 20%); 
+    width: 80%;
+    transform: translate(12%, 20%); 
   }
 
   #contact {
