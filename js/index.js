@@ -58,7 +58,7 @@ function text() {
 }
 
 me = 'Hi! My name is Shashwati Shradha. I am a senior pursuing my Bachelors in Computer Science and Mathematics \
-at <a href=\'https://www.sdsmt.edu/\'> South Dakota School of Mines and Technology</a>. - Some of the areas that I have enjoyed working on are \
+at <a href=\'https://www.sdsmt.edu/\'> South Dakota School of Mines and Technology</a>. - Some of the areas that I have enjoyed working on \
 cloud computing, machine learning, and application development. You can checkout my projects on \
 <a href=\'https://github.com/sha5hwati\'> Github</a>! - \
 When not coding, I am hiking, biking, reading, or exploring places.'
